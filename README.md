@@ -9,19 +9,21 @@ This repository contains a **Python** implementation of the **Newton-Raphson (NR
 
 Below is the flowchart illustrating the Newton-Raphson power flow calculation process:  
 
-![Term Project Flowchart](image/image.png)  
+![Term Project Flowchart](Image/image.png)  
 
 ## Future Improvements  
 Planned enhancements for the next versions:  
 - Improve **Jacobian Matrix** computation for better efficiency  
 - Enhance **Q-limits enforcement** for generators  
 - Include **shunt susceptance** at specific buses  
-- Implement **transformer phase shift angles**  
+- Implement **transformer phase shift angles**
+- 
+## Liscence
+This project is open-source! Feel free to fork the repository and contribute improvements. 
 
 ##  Prerequisites  
 Ensure you have **Python 3.x** installed along with the required libraries:  
 ```bash
 pip install numpy
 
-## Liscence
-This project is open-source! Feel free to fork the repository and contribute improvements. 
+
