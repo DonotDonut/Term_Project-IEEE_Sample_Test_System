@@ -1,21 +1,27 @@
-# Newton-Raphson Power Flow Analysis 
+# Newton-Raphson Power Flow Analysis  
 
-This repository contains a **Python** implementation of the **Newton-Raphson (NR) power flow analysis**. The program is designed to take input from the **[IEEE Power Flow Test Cases](https://lamarr.ece.uw.edu/research/pstca)** and compute key power flow results such as bus voltage magnitudes and angles, generator outputs, and line flows.
+This repository contains a **Python** implementation of the **Newton-Raphson (NR) power flow analysis**. The program takes input from the **[IEEE Power Flow Test Cases](https://lamarr.ece.uw.edu/research/pstca)** and computes key power flow results, including:  
+- **Bus Voltage Magnitudes & Angles**  
+- **Generator Outputs**  
+- **Line Power Flows**  
 
-Below is the flowchart illustrating the Newton-Raphson power flow calculation process:
+## Newton-Raphson Flowchart  
 
-![Term Project Flowchart](image/image.png)
+Below is the flowchart illustrating the Newton-Raphson power flow calculation process:  
 
-### Future Works 
-- Improve the Jacobian matrix
-- improve the Qlimits enforcement
-- Include shunt susceptance to certain bus
-- include transformer phase shift angle
+![Term Project Flowchart](image/image.png)  
 
-### Prerequisites
-Ensure you have Python 3.x installed, along with the following libraries:
+## Future Improvements  
+Planned enhancements for the next versions:  
+- Improve **Jacobian Matrix** computation for better efficiency  
+- Enhance **Q-limits enforcement** for generators  
+- Include **shunt susceptance** at specific buses  
+- Implement **transformer phase shift angles**  
+
+##  Prerequisites  
+Ensure you have **Python 3.x** installed along with the required libraries:  
 ```bash
 pip install numpy
 
-### License
-Anyone can use the code if you would like to help improve this code fork it 
+## Liscence
+This project is open-source! Feel free to fork the repository and contribute improvements. 
