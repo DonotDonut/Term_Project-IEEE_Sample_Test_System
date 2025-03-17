@@ -5,7 +5,7 @@ This repository contains a **Python** implementation of the **Newton-Raphson (NR
 - **Generator Outputs**  
 - **Line Power Flows**  
 
-## Newton-Raphson Flowchart  
+## Term Project Flowchart  
 
 Below is the flowchart illustrating the Newton-Raphson power flow calculation process:  
 
