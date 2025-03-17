@@ -1,5 +1,5 @@
 # Newton-Raphson Power Flow Analysis  
-
+### Power System Operation - EE572 
 This repository contains a **Python** implementation of the **Newton-Raphson (NR) power flow analysis**. The program takes input from the **[IEEE Power Flow Test Cases](https://lamarr.ece.uw.edu/research/pstca)** and computes key power flow results, including:  
 - **Bus Voltage Magnitudes & Angles**  
 - **Generator Outputs**  
